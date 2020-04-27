@@ -47,7 +47,7 @@ public class Tela_Analise extends AppCompatActivity {
         String nome = getIntent().getStringExtra("nome");
 
         Random random = new Random();
-        int max = 4;
+        int max = 5;
         int numSorteado = random.nextInt(max);
 
         this.encontrarImagem(numSorteado);
